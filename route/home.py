@@ -6,4 +6,5 @@ home_api = Blueprint('api', __name__)
 
 @home_api.route('/')
 def welcome():
-    return jsonify({'tasks': "teste", 'success': 1})
+    if request.method == 'GET':
+        return jsonify({'tasks': "teste", 'success': 1})
