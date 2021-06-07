@@ -1,1 +1,1 @@
-# odelo basico de API e Blueprint usando Python
+# Modelo basico de API e Blueprint usando Python
